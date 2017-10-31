@@ -57,6 +57,12 @@ nav span {
 	background-color: black;
 }
 
+.teas {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+}
+
 .teas img {
 	width: 300px;
 	height: 200px;
