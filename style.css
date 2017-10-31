@@ -17,11 +17,35 @@ header {
 	border-bottom: 1px solid seashell;
 }
 
-header.logo {
-	height: 50px;
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
 	padding-left: 10px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+header nav {
+	padding-right: 10px;
 }
 
 nav span {
 	display: inline-block;
+	padding: 20px 10px;
+	color: seashell;
+	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	padding-top: 70px;
+}
+
+.Mission {
+	background-image: url("./mission-background.jpg");
+	width: 1200px;
+	height: 700px;
 }
