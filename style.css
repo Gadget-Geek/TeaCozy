@@ -3,8 +3,6 @@ html {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
-	text-align: center;
 }
 
 header {
@@ -14,6 +12,8 @@ header {
 	z-index: 1;
 	width: 100%;
 	height: 69	px;
+	background-color: black;
+	opacity: 0.9;
 	border-bottom: 1px solid seashell;
 }
 
@@ -40,7 +40,8 @@ nav span {
 }
 
 .content {
-	display: flex;
+	align-items: center;
+	text-align: center;
 	padding-top: 70px;
 }
 
@@ -48,4 +49,10 @@ nav span {
 	background-image: url("./mission-background.jpg");
 	width: 1200px;
 	height: 700px;
+}
+
+.mission-content {
+	display: inline;
+	flex-direction: column;
+	background-color: black;
 }
