@@ -54,7 +54,7 @@ a {
 	height: 700px;
 }
 
-.Mission.mission-content {
+.mission-content {
 	display: flex;
 	flex-direction: column;
 	top: 50%;
@@ -82,11 +82,12 @@ a {
 }
 
 .Locations {
+	display: inline;
 	background-image: url("./locations-background.jpg");
 	height: 500px;
 }
 
-.Locations.location-content {
+.location-content {
 	display: flex;
 	flex-direction: row;
 }
@@ -94,6 +95,7 @@ a {
 .location-data {
 	display: flex;
 	flex-direction: column;
+	background-color: black;
 }
 
 footer {
