@@ -35,6 +35,9 @@ header nav {
 nav span {
 	display: inline-block;
 	padding: 20px 10px;
+}
+
+a {
 	color: seashell;
 	text-decoration: underline;
 }
@@ -52,18 +55,37 @@ nav span {
 }
 
 .mission-content {
-	display: inline;
+	display: flex;
 	flex-direction: column;
+	top: 50%;
 	background-color: black;
+}
+
+.Featured {
+	width: 1000px;
 }
 
 .teas {
 	display: flex;
 	flex-direction: row;
-	width: 1000px;
+	flex-basis: 1000px;
 }
 
 .teas img {
 	width: 300px;
+	height: 200px;
+}
+
+.Locations {
+	background-image: url("./locations-background.jpg");
+	height: 500px;
+}
+
+location-content {
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
 	height: 200px;
 }
