@@ -54,7 +54,7 @@ a {
 	height: 700px;
 }
 
-.mission-content {
+.Mission.mission-content {
 	display: flex;
 	flex-direction: column;
 	top: 50%;
@@ -65,13 +65,18 @@ a {
 	width: 1000px;
 }
 
-.teas {
+.tea-content {
 	display: flex;
 	flex-direction: row;
 	flex-basis: 1000px;
 }
 
-.teas img {
+.tea {
+	display: flex;
+	flex-direction: column;
+}
+
+.tea img {
 	width: 300px;
 	height: 200px;
 }
@@ -81,9 +86,14 @@ a {
 	height: 500px;
 }
 
-location-content {
+.Locations.location-content {
 	display: flex;
 	flex-direction: row;
+}
+
+.location-data {
+	display: flex;
+	flex-direction: column;
 }
 
 footer {
