@@ -3,6 +3,7 @@ html {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
+	text-align: center;
 }
 
 header {
@@ -50,14 +51,18 @@ a {
 
 .Mission {
 	background-image: url("./mission-background.jpg");
-	width: 1200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	justify-content: center;
+	align-items: center;
 	height: 700px;
 }
 
 .mission-content {
-	display: flex;
-	flex-direction: column;
-	top: 50%;
+	width: 1200px;
 	background-color: black;
 }
 
@@ -66,9 +71,9 @@ a {
 }
 
 .tea-content {
-	display: flex;
-	flex-direction: row;
-	flex-basis: 1000px;
+	display: inline-flex;
+	max-width: 1000px;
+	justify-content: space-around;
 }
 
 .tea {
@@ -85,11 +90,12 @@ a {
 	display: inline;
 	background-image: url("./locations-background.jpg");
 	height: 500px;
+	width: 1200px;
 }
 
 .location-content {
-	display: flex;
-	flex-direction: row;
+	display: inline-flex;
+	justify-content: space-around;
 }
 
 .location-data {
