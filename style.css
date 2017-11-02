@@ -68,22 +68,19 @@ a {
 
 .Featured {
 	width: 1000px;
+	margin: auto;
+	flex-wrap: wrap;
 }
 
 .tea-content {
-	display: inline-flex;
-	max-width: 1000px;
-	justify-content: space-around;
-}
-
-.tea {
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
+	flex-wrap: wrap;
 }
 
 .tea img {
 	width: 300px;
 	height: 200px;
+	margin: 0px 10px;
 }
 
 .Locations {
