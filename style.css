@@ -80,17 +80,14 @@ a {
 }
 
 .tea img {
-	padding: 5px;
+	padding: 0px 10px;
 	width: 300px;
 	height: 200px;
 }
 
 .Locations {
 	background-image: url("./locations-background.jpg");
-	background-position: center;
-	margin: auto;
-	flex-wrap: wrap;
-	padding: 40px 0px;
+	padding: 70px 0px;
 	height: 500px;
 }
 
@@ -99,6 +96,7 @@ a {
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 1200px;
+	margin: auto;
 }
 
 .location-data {
