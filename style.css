@@ -44,8 +44,6 @@ a {
 }
 
 .content {
-	align-items: center;
-	text-align: center;
 	padding-top: 70px;
 }
 
@@ -87,6 +85,9 @@ a {
 
 .Locations {
 	background-image: url("./locations-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
 	padding: 70px 0px;
 	height: 500px;
 }
