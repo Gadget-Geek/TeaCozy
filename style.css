@@ -68,6 +68,7 @@ a {
 
 .Featured {
 	width: 1000px;
+	padding: 40px 0px;
 	margin: auto;
 	flex-wrap: wrap;
 }
